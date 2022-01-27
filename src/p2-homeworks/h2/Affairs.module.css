@@ -1,0 +1,17 @@
+.someClass {
+
+}
+
+.affair{
+    display: flex;
+}
+
+.affairName{
+    margin: 10px;
+    width: 100px;
+    /*padding: 10px;*/
+}
+
+.button{
+    margin: 5px;
+}
