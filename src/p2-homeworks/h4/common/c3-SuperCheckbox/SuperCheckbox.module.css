@@ -1,5 +1,20 @@
-.checkbox {
+label{
+    cursor: pointer;
+}
 
+.checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: white;
+    cursor: pointer;
+}
+
+.checkbox:checked {
+    appearance: none;
+    background: black;
+   /*background-image:url("https://e7.pngegg.com/pngimages/254/504/png-clipart-computer-icons-check-mark-checkbox-symbol-miscellaneous-angle.png") ;*/
 }
 
 .spanClassName {

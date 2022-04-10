@@ -10,8 +10,9 @@ type PropsType = {
 
 function Message(props: PropsType) {
     return (
-        <div className={s.message}>
-            <img src={props.avatar} className={s.avatar} alt={'avatar'}/>
+        <div className={s.messageItem}>
+            <div><img src={props.avatar} className={s.avatar} alt={'avatar'}/></div>
+            <div className={s.arrow}></div>
             <div className={s.content}>
 
                 <div className={s.name}>{props.name}</div>

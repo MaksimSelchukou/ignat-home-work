@@ -1,29 +1,107 @@
-body{
+body {
     display: block;
 }
-.message {
-    display: flex;
-    align-items: flex-end;
-    margin: 10px;
 
+/*.message {*/
+/*    display: flex;*/
+/*    align-items: flex-end;*/
+/*    margin: 10px;*/
+
+/*}*/
+
+/*.message {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: left;*/
+/*    align-items: end;*/
+/*    color:white;*/
+
+.messageItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: end;
+    color:white;
+    margin-top: 10px;
+}
+
+.message {
+    word-wrap: break-word;
 }
 
 .name {
     color: red;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .avatar {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: black;
 }
 
 .content {
-    padding: 10px;
-    background-color: rgba(88, 30, 30, 0.3);
+
+        float: left;
+        background: silver;
+        padding: 0.2em 0.8em;
+        border-radius: 1em 1em 1em 0em;
+        position: relative;
+        line-height: 1.5em;
+        background-color: #5f9ea0;
+
+}
+
+.arrow {
+    height: 20px;
+    width: 20px;
+    background: radial-gradient(circle at top left, rgba(0, 0, 0, 0), 20px, rgba(95, 158, 160, 100) 0);
 }
 
 .time {
-
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0.3;
 }
+
+
+/*.messageItem {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: left;*/
+/*    align-items: end;*/
+/*    color:white;*/
+/*}*/
+/*.name{*/
+/*    font-size: 16px;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.message {*/
+/*    word-wrap: break-word;*/
+/*}*/
+/*.arrow{*/
+/*    height: 20px;*/
+/*    width:20px;*/
+/*    background: radial-gradient(circle at top left, rgba(0,0,0,0),20px, rgba(95,158,160,100) 0);*/
+/*}*/
+/*.avatar {*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    border-radius: 50%;*/
+
+/*}*/
+/*.item {*/
+/*    float: left;*/
+/*    background: silver;*/
+/*    padding: 0.2em 0.8em;*/
+/*    border-radius: 1em 1em 1em 0em;*/
+/*    position: relative;*/
+/*    line-height: 1.5em;*/
+/*    background-color: #5f9ea0;*/
+/*}*/
+/*.data{*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*    opacity: 0.3;*/
+/*}*/

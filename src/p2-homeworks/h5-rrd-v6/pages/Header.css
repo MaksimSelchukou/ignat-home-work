@@ -1,0 +1,35 @@
+.active {
+    color: blue;
+}
+
+.common {
+    display: flex;
+    transform: translate(-320px);
+    transition: transform 1.5s
+}
+
+.common:hover {
+    transform: translate(0);
+}
+
+.menu {
+    width: 90px;
+    height: 20px;
+    background-color: cadetblue;
+    transform: translate(20px);
+    border-radius: 2px;
+    align-items: center;
+    text-align: center;
+}
+
+.link {
+    font-size: 16px;
+    font-style: italic;
+    font-family: "Arial Black";
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.link:hover {
+    color: red
+}
